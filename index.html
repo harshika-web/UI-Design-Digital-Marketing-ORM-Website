@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agency — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-page="home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Agency<span class="dot">.</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="orm.html">ORM</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="btn-outline" href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Digital Marketing • SEO • ORM • Web Design</p>
+          <h1 class="reveal">We build growth-driven brands — <span id="typed" class="typed">Performance
+              Marketing</span><span class="caret">|</span></h1>
+          <p class="lead reveal">Strategic marketing, creative design, and measurable results for ambitious brands that
+            want to dominate their market.</p>
+          <div class="hero-cta reveal">
+            <a class="btn primary" href="services.html"><span>Explore Services</span></a>
+            <a class="btn ghost" href="contact.html"><span>Start a Project</span></a>
+          </div>
+          <ul class="hero-features reveal">
+            <li>✓ Data-driven campaigns</li>
+            <li>✓ Conversion optimization</li>
+            <li>✓ Reputation management</li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="blob blob-1"></div>
+          <div class="blob blob-2"></div>
+
+          <!-- Robotic illustration -->
+          <div class="robot-wrap">
+            <svg id="robot" viewBox="0 0 280 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0" stop-color="#7c5cff" />
+                  <stop offset="1" stop-color="#00d4ff" />
+                </linearGradient>
+              </defs>
+              <g id="robot-body">
+                <rect x="60" y="90" width="160" height="140" rx="20" fill="url(#g1)" opacity="0.14" />
+                <rect x="80" y="110" width="120" height="100" rx="12" fill="#041025" />
+                <rect id="robot-face" x="100" y="120" width="80" height="56" rx="8" fill="#0b2940" />
+                <circle id="eye-left" cx="130" cy="148" r="6" fill="#fff" />
+                <circle id="eye-right" cx="170" cy="148" r="6" fill="#fff" />
+                <rect id="mouth" x="130" y="166" width="40" height="6" rx="3" fill="#59f2ff" opacity="0.9" />
+                <g id="left-arm" transform="translate(40,140)">
+                  <rect x="0" y="0" width="20" height="80" rx="6" fill="#0b2940" />
+                  <circle cx="10" cy="88" r="12" fill="#7c5cff" />
+                </g>
+                <g id="right-arm" transform="translate(220,140)">
+                  <rect x="-20" y="0" width="20" height="80" rx="6" fill="#0b2940" />
+                  <circle cx="-10" cy="88" r="12" fill="#00d4ff" />
+                </g>
+                <g id="gear" transform="translate(200,60) scale(.8)">
+                  <circle cx="0" cy="0" r="18" fill="#041025" stroke="#7c5cff" stroke-width="4" />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-preview container reveal">
+      <div class="section-header">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Comprehensive solutions to accelerate your growth</p>
+      </div>
+      <div class="grid">
+        <article class="service-card"
+          style="background-image: linear-gradient(rgba(26, 26, 46, 0.4), rgba(26, 26, 46, 0.4)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=500&fit=crop'); background-size:cover; background-position:center;">
+          <div class="card-content">
+            <div class="icon">📈</div>
+            <h3>Digital Marketing</h3>
+            <p>Full-funnel campaigns that drive qualified leads and sustainable growth.</p>
+            <a href="services.html" class="learn-more">Learn more →</a>
+          </div>
+        </article>
+        <article class="service-card"
+          style="background-image: linear-gradient(rgba(26, 26, 46, 0.4), rgba(26, 26, 46, 0.4)), url('https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=600&h=500&fit=crop'); background-size:cover; background-position:center;">
+          <div class="card-content">
+            <div class="icon">🔍</div>
+            <h3>SEO</h3>
+            <p>Technical & content SEO strategies for sustainable organic traffic growth.</p>
+            <a href="services.html" class="learn-more">Learn more →</a>
+          </div>
+        </article>
+        <article class="service-card"
+          style="background:linear-gradient(135deg, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=400&h=300&fit=crop') center/cover no-repeat">
+          <div class="card-content">
+            <div class="icon">💬</div>
+            <h3>Social Media</h3>
+            <p>Creative social strategies, content production, and community engagement.</p>
+            <a href="services.html" class="learn-more">Learn more →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="why container reveal">
+      <div class="why-header">
+        <h2 class="section-title">Why Choose Us</h2>
+        <p class="section-subtitle">What makes us different from the rest</p>
+      </div>
+      <div class="split">
+        <div class="why-intro">
+          <p>We blend data-driven strategy with creative execution. Our approach combines clear KPIs, transparent
+            reporting, continuous optimization, and dedicated partnership to ensure your success.</p>
+          <div class="why-highlight">🏆 10+ years of experience transforming brands and driving measurable growth.</div>
+        </div>
+        <div class="why-benefits">
+          <ul class="why-list">
+            <li><span class="check">✓</span><span class="benefit-text">Proven ROI-focused approach</span></li>
+            <li><span class="check">✓</span><span class="benefit-text">Dedicated strategists & creatives</span></li>
+            <li><span class="check">✓</span><span class="benefit-text">Transparent reporting & dashboards</span></li>
+            <li><span class="check">✓</span><span class="benefit-text">Custom strategies for every industry</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats container reveal">
+      <div class="stats-wrapper">
+        <h2 class="section-title text-center">Our Impact</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">120+</div>
+            <div class="stat-label">Clients served</div>
+            <div class="stat-desc">Across diverse industries</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">4.8★</div>
+            <div class="stat-label">Average rating</div>
+            <div class="stat-desc">Client satisfaction score</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">250%</div>
+            <div class="stat-label">Avg lead growth</div>
+            <div class="stat-desc">Within first 6 months</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Years experience</div>
+            <div class="stat-desc">Proven track record</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials container reveal">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="test-slider">
+        <div class="test-item active">
+          <p>“They doubled our organic traffic in 6 months.”</p>
+          <cite>— Sarah, E‑commerce</cite>
+        </div>
+        <div class="test-item">
+          <p>“Strategic, creative, and reliable partners.”</p>
+          <cite>— Mark, SaaS</cite>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta container reveal">
+      <div class="cta-panel">
+        <div class="cta-content">
+          <h3>Ready to grow your brand?</h3>
+          <p>Let's build a custom strategy that drives measurable results and accelerates your market position.</p>
+          <div class="cta-buttons">
+            <a class="btn primary" href="contact.html">Start Your Project</a>
+            <a class="btn ghost" href="about.html">Learn Our Process</a>
+          </div>
+        </div>
+        <div class="cta-accent"></div>
+      </div>
+    </section>
+  </main>
+
+  <section class="testimonials-marquee">
+    <div class="container">
+      <div class="marquee-header reveal">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="muted">Trusted by brands and agencies worldwide to deliver growth.</p>
+      </div>
+
+      <div class="marquee-wrap reveal">
+        <div class="marquee-track">
+          <!-- First set of cards -->
+          <div class="testimonial-card">
+            <p class="quote">"They doubled our organic traffic in 6 months. Best investment we made."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=48&h=48&fit=crop&crop=face"
+                alt="Sarah" class="avatar">
+              <div>
+                <h4>Sarah Chen</h4>
+                <span class="role">CEO, TechStartup</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"Strategic, creative, and reliable. They understand our business goals."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=48&h=48&fit=crop&crop=face"
+                alt="Mark" class="avatar">
+              <div>
+                <h4>Mark Johnson</h4>
+                <span class="role">Founder, SaaS Co</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"Their ORM strategy saved our reputation. Highly recommend."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=48&h=48&fit=crop&crop=face"
+                alt="Jessica" class="avatar">
+              <div>
+                <h4>Jessica Martinez</h4>
+                <span class="role">Marketing Director</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"Best digital marketing partner we've ever worked with. Results speak."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=48&h=48&fit=crop&crop=face"
+                alt="Alex" class="avatar">
+              <div>
+                <h4>Alex Rivera</h4>
+                <span class="role">Product Lead, E-commerce</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate set for seamless loop -->
+          <div class="testimonial-card">
+            <p class="quote">"They doubled our organic traffic in 6 months. Best investment we made."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=48&h=48&fit=crop&crop=face"
+                alt="Sarah" class="avatar">
+              <div>
+                <h4>Sarah Chen</h4>
+                <span class="role">CEO, TechStartup</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"Strategic, creative, and reliable. They understand our business goals."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=48&h=48&fit=crop&crop=face"
+                alt="Mark" class="avatar">
+              <div>
+                <h4>Mark Johnson</h4>
+                <span class="role">Founder, SaaS Co</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"Their ORM strategy saved our reputation. Highly recommend."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=48&h=48&fit=crop&crop=face"
+                alt="Jessica" class="avatar">
+              <div>
+                <h4>Jessica Martinez</h4>
+                <span class="role">Marketing Director</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"Best digital marketing partner we've ever worked with. Results speak."</p>
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=48&h=48&fit=crop&crop=face"
+                alt="Alex" class="avatar">
+              <div>
+                <h4>Alex Rivera</h4>
+                <span class="role">Product Lead, E-commerce</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gradient masks for fade effect -->
+        <div class="marquee-fade-left"></div>
+        <div class="marquee-fade-right"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Agency</h4>
+          <p>Your partner in digital excellence. We build growth-driven brands with performance marketing and strategic
+            design.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="quick-links">
+            <li><a href="index.html"><span>→</span> Home</a></li>
+            <li><a href="about.html"><span>→</span> About</a></li>
+            <li><a href="services.html"><span>→</span> Services</a></li>
+            <li><a href="portfolio.html"><span>→</span> Portfolio</a></li>
+            <li><a href="contact.html"><span>→</span> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Social Media</h4>
+          <ul class="quick-links">
+            <li><a href="#"><span>•</span> Twitter</a></li>
+            <li><a href="#"><span>•</span> LinkedIn</a></li>
+            <li><a href="#"><span>•</span> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Agency. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="assets/js/particles.js"></script>
+  <script defer src="assets/js/spotlight.js"></script>
+  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/dark-mode.js"></script>
+</body>
+
+</html>

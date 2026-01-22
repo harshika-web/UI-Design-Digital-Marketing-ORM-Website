@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agency — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-page="portfolio">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Agency<span class="dot">.</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="orm.html">ORM</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="btn-outline" href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="portfolio-hero">
+      <h1>Our Work</h1>
+      <p>Real campaigns. Real results. Real impact on business growth.</p>
+    </section>
+
+    <!-- Filters -->
+    <div class="filters-wrapper">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="marketing">Digital Marketing</button>
+        <button class="filter-btn" data-filter="orm">ORM</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+      </div>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid">
+      <!-- Project 1: Marketing -->
+      <article class="portfolio-item" data-cat="marketing" data-anim>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+              alt="Marketing Meeting" loading="lazy">
+          </div>
+          <div class="portfolio-content">
+            <div class="card-meta">
+              <span class="badge marketing">MARKETING</span>
+              <span class="outcome">+250% Leads</span>
+            </div>
+            <h3>TechStart Lead Generation</h3>
+            <p>B2B SaaS platform needed qualified leads. We built a multi-channel campaign with LinkedIn ads, webinars,
+              and content marketing.</p>
+            <div class="portfolio-stats">
+              <div class="stat-box">
+                <span class="stat-value">4.8K</span>
+                <span class="stat-label">NEW LEADS</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">$48</span>
+                <span class="stat-label">COST PER LEAD</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">18%</span>
+                <span class="stat-label">CONVERSION RATE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2: ORM -->
+      <article class="portfolio-item" data-cat="orm" data-anim>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&h=500&fit=crop"
+              alt="Mountain Scenery" loading="lazy">
+          </div>
+          <div class="portfolio-content">
+            <div class="card-meta">
+              <span class="badge orm">ORM</span>
+              <span class="outcome">2.1★ to 4.7★</span>
+            </div>
+            <h3>E-Commerce Brand Recovery</h3>
+            <p>After a product recall incident, a retailer's reputation was damaged. We executed a targeted review
+              recovery and positive amplification strategy.</p>
+            <div class="portfolio-stats">
+              <div class="stat-box">
+                <span class="stat-value">+2.6★</span>
+                <span class="stat-label">RATING INCREASE</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">890</span>
+                <span class="stat-label">NEW REVIEWS</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">6 Months</span>
+                <span class="stat-label">TIMELINE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3: Web Dev -->
+      <article class="portfolio-item" data-cat="web" data-anim>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=500&fit=crop" alt="Luxury Hotel"
+              loading="lazy">
+          </div>
+          <div class="portfolio-content">
+            <div class="card-meta">
+              <span class="badge web">WEB DEV</span>
+              <span class="outcome">+165% Traffic</span>
+            </div>
+            <h3>Premium Hotel Website Redesign</h3>
+            <p>Redesigned and rebuilt a luxury hospitality website with modern design, booking optimization, and
+              mobile-first experience.</p>
+            <div class="portfolio-stats">
+              <div class="stat-box">
+                <span class="stat-value">94</span>
+                <span class="stat-label">LIGHTHOUSE SCORE</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">32%</span>
+                <span class="stat-label">BOOKING INCREASE</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">2.1s</span>
+                <span class="stat-label">LOAD TIME</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4: Marketing -->
+      <article class="portfolio-item" data-cat="marketing" data-anim>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <img src="https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=600&h=500&fit=crop"
+              alt="Viral Campaign" loading="lazy">
+          </div>
+          <div class="portfolio-content">
+            <div class="card-meta">
+              <span class="badge marketing">MARKETING</span>
+              <span class="outcome">+420% Reach</span>
+            </div>
+            <h3>Fashion Viral Campaign</h3>
+            <p>Launched integrated social campaign across TikTok and Instagram leveraging influencer partnerships for
+              maximum reach.</p>
+            <div class="portfolio-stats">
+              <div class="stat-box">
+                <span class="stat-value">2.4M</span>
+                <span class="stat-label">TOTAL VIEWS</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">150K</span>
+                <span class="stat-label">NEW FOLLOWERS</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">8.7%</span>
+                <span class="stat-label">ENGAGEMENT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 5: ORM -->
+      <article class="portfolio-item" data-cat="orm" data-anim>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=500&fit=crop"
+              alt="SERP Cleanup" loading="lazy">
+          </div>
+          <div class="portfolio-content">
+            <div class="card-meta">
+              <span class="badge orm">ORM</span>
+              <span class="outcome">Top 3 Results</span>
+            </div>
+            <h3>Enterprise SERP Cleanup</h3>
+            <p>Strategic suppression of negative search results while boosting positive authority assets for a SaaS
+              leader.</p>
+            <div class="portfolio-stats">
+              <div class="stat-box">
+                <span class="stat-value">-8</span>
+                <span class="stat-label">NEGATIVES</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">45%</span>
+                <span class="stat-label">CONV. LIFT</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">12 Mo.</span>
+                <span class="stat-label">DURATION</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 6: Web Dev -->
+      <article class="portfolio-item" data-cat="web" data-anim>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=500&fit=crop"
+              alt="Global Platform" loading="lazy">
+          </div>
+          <div class="portfolio-content">
+            <div class="card-meta">
+              <span class="badge web">WEB DEV</span>
+              <span class="outcome">+78% Revenue</span>
+            </div>
+            <h3>Global E-Commerce Platform</h3>
+            <p>Custom headless e-commerce solution with advanced personalization and sub-second page loads for global
+              retail.</p>
+            <div class="portfolio-stats">
+              <div class="stat-box">
+                <span class="stat-value">$1.2M</span>
+                <span class="stat-label">REV (YR 1)</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">3.2%</span>
+                <span class="stat-label">CONV. RATE</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">99.9%</span>
+                <span class="stat-label">UPTIME</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="portfolio-cta reveal">
+      <div class="portfolio-cta-inner">
+        <h2>Ready to Create Your Success Story?</h2>
+        <p>Let's discuss how we can drive measurable results for your business.</p>
+        <a href="contact.html" class="btn primary">Start Your Project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Agency</h4>
+          <p>Your partner in digital excellence. We build growth-driven brands with performance marketing and strategic
+            design.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="quick-links">
+            <li><a href="index.html"><span>→</span> Home</a></li>
+            <li><a href="about.html"><span>→</span> About</a></li>
+            <li><a href="services.html"><span>→</span> Services</a></li>
+            <li><a href="portfolio.html"><span>→</span> Portfolio</a></li>
+            <li><a href="contact.html"><span>→</span> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Social Media</h4>
+          <ul class="quick-links">
+            <li><a href="#"><span>•</span> Twitter</a></li>
+            <li><a href="#"><span>•</span> LinkedIn</a></li>
+            <li><a href="#"><span>•</span> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Agency. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="assets/js/spotlight.js"></script>
+  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/dark-mode.js"></script>
+</body>
+
+</html>

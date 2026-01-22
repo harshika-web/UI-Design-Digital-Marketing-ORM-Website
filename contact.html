@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agency — Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Agency<span class="dot">.</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="orm.html">ORM</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="btn-outline" href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="contact-hero reveal">
+      <div class="container">
+        <h1>Let's Work Together</h1>
+        <p>Have a project in mind? We'd love to hear about it. Get in touch and let's create something amazing.</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="contact-grid reveal">
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <div class="form-header">
+            <h2>Send us a Message</h2>
+            <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input id="name" type="text" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input id="email" type="email" name="email" placeholder="your.email@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="company">Company (Optional)</label>
+              <input id="company" type="text" name="company" placeholder="Your company name">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" name="subject" placeholder="What is this about?" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"
+                placeholder="Tell us about your project, goals, and timeline..." required></textarea>
+            </div>
+            <button class="btn primary btn-submit" type="submit">Send Message</button>
+            <p class="form-note">We respect your privacy and will never share your information.</p>
+          </form>
+        </div>
+
+        <!-- Contact Info & Quick Links -->
+        <div class="contact-sidebar">
+          <!-- Quick Contact -->
+          <div class="contact-card">
+            <div class="card-icon">📧</div>
+            <h3>Email</h3>
+            <p><a href="mailto:hello@agency.example">hello@agency.example</a></p>
+            <small>Response time: 24 hours</small>
+          </div>
+
+          <div class="contact-card">
+            <div class="card-icon">📞</div>
+            <h3>Phone</h3>
+            <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+            <small>Available Mon-Fri, 9AM-6PM EST</small>
+          </div>
+
+          <div class="contact-card">
+            <div class="card-icon">📍</div>
+            <h3>Office</h3>
+            <p>Times Square<br>New York, NY 10036</p>
+            <small>Schedule a visit</small>
+          </div>
+
+          <!-- Social Links -->
+          <div class="contact-card social-card">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+              <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+              <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map Section -->
+      <section class="contact-map-section reveal">
+        <h2 class="section-title text-center">Visit Our Office</h2>
+        <div class="map-container">
+          <iframe src="https://maps.google.com/maps?q=Times%20Square%20NY&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            aria-hidden="false" tabindex="0" title="Our office location on Google Maps"></iframe>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Agency</h4>
+          <p>Your partner in digital excellence. We build growth-driven brands with performance marketing and strategic
+            design.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="quick-links">
+            <li><a href="index.html"><span>→</span> Home</a></li>
+            <li><a href="about.html"><span>→</span> About</a></li>
+            <li><a href="services.html"><span>→</span> Services</a></li>
+            <li><a href="portfolio.html"><span>→</span> Portfolio</a></li>
+            <li><a href="contact.html"><span>→</span> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Social Media</h4>
+          <ul class="quick-links">
+            <li><a href="#"><span>•</span> Twitter</a></li>
+            <li><a href="#"><span>•</span> LinkedIn</a></li>
+            <li><a href="#"><span>•</span> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Agency. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/dark-mode.js"></script>
+</body>
+
+</html>
